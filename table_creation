@@ -1,0 +1,23 @@
+CREATE TABLE future_value (
+	Loan_ID TEXT, 
+	Customer_ID TEXT,
+    Current_Loan_Amount integer,
+    Term TEXT,
+    Credit_Score float,
+    Annual_Income float,
+    Years_in_current_job TEXT,
+    Home_Ownership TEXT,
+    Purpose TEXT,
+    Monthly_Debt float,
+    Years_of_Credit_History float,
+    Months_since_last_delinquent float,
+    Number_of_Open_Accounts integer,
+    Number_of_Credit_Problems integer,
+    Current_Credit_Balance integer,
+    Maximum_Open_Credit float,
+    Bankruptcies float,
+    Tax_Liens float,
+	Loan_Status TEXT,
+    prediction_type TEXT,
+    prediction_time TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+);
